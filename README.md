@@ -1,2 +1,2 @@
 # Utils
-Some basic utilities files
+* CSV to JSON file converter
