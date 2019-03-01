@@ -8,3 +8,6 @@
 
 ### Set Ipython/Jupyter Kernel
 * python -m ipykernel install --user --name myenv --display-name "Python (myenv)"
+
+### Put large files in gitignore in GitHub
+* find ./* -size +100M | cat >> .gitignore
