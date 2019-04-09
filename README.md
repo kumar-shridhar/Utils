@@ -11,3 +11,6 @@
 
 ### Put large files in gitignore in GitHub
 * find ./* -size +100M | cat >> .gitignore
+
+### Check Graphics card presence
+* lspci | grep VGA
