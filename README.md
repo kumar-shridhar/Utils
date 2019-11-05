@@ -16,5 +16,5 @@
 * lspci | grep VGA
 
 ### Cut n lines from one file to the other
-* head -n file_to_copy_from > file_to copy to && sed -i '1+n-1d' file_to_copy_from
+* head -n file_to_copy_from > file_to copy to && sed -i '1,+n-1d' file_to_copy_from
   * Example: head -100000 OpenSubtitles.de-en.de > OpenSubtitles.de-en.de.valid && sed -i '1,+99999d' OpenSubtitles.de-en.de
